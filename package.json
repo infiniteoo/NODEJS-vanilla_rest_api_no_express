@@ -20,5 +20,8 @@
   "homepage": "https://github.com/infiniteoo/NODEJS-vanilla_rest_api_no_express#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
 }
