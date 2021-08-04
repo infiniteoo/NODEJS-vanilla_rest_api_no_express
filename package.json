@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/infiniteoo/NODEJS-vanilla_rest_api_no_express/issues"
   },
-  "homepage": "https://github.com/infiniteoo/NODEJS-vanilla_rest_api_no_express#readme"
+  "homepage": "https://github.com/infiniteoo/NODEJS-vanilla_rest_api_no_express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
