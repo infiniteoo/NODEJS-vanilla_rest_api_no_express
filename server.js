@@ -1,7 +1,9 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  console.log(123);
+  res.statusCode = 200;
+  res.setHeader("Content-type", "text/html");
+  res.write("<h1>Hello World</h1>");
 });
 
 const PORT = process.env.PORT || 5000;
